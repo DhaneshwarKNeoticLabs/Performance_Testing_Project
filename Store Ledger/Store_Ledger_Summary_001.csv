@@ -1,0 +1,19 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,"Throughput
+(/Sec)",Received KB/sec,Sent KB/sec,Avg. Bytes,"Throughput
+(/Hr)"
+Home/UserLogin,2,9,9,10,0.5,0.00%,0.00717,0,0,573,25.812/hr
+Home/Index,4,523,135,1540,589.92,50.00%,0.01431,18.13,0.66,1297631.2,51.516/hr
+Cntrl-Login,2,918,286,1550,632,0.00%,0.00716,16.56,0.66,2367968.5,25.776/hr
+Home/GetPlant,2,6,5,7,1,0.00%,0.0072,0,0,646,25.92/hr
+Quality/GetDueData,2,50,48,53,2.5,0.00%,0.0072,0.01,0,778,25.92/hr
+Notification/Getnotitfication,8,33,27,50,6.98,0.00%,0.01454,0.26,0.01,18474,52.344/hr
+Home/GetQuickMenu,2,14,7,22,7.5,0.00%,0.0072,0,0,575,25.92/hr
+Production/StoreLedgerReport,2,263,234,292,29,0.00%,0.00743,2.92,0.64,402080,26.748/hr
+Purchase/GetPlant?UserName=sujit,2,5,5,6,0.5,0.00%,0.00743,0,0,646,26.748/hr
+Master/GetListItemTypes,2,5,5,5,0,0.00%,0.00743,0.01,0,1470,26.748/hr
+Store/GetStoresForStock,2,213,193,234,20.5,0.00%,0.00743,0.3,0,41918,26.748/hr
+Production/GetPartNosFromStocks,2,677,572,782,105,0.00%,0.00742,0,0,315,26.712/hr
+Production/PrintStoreLedgerReport?PlantId=2&fromDate=2024-08-01&toDate=2025-08-05&FromPartNo=41543&ToPartNo=41545&StoreCode=&ProcessCode=PKG,2,227493,225650,229336,1843,100.00%,0.00402,2.46,0,627004,14.472/hr
+Production/PrintStoreLedgerReport?PlantId=2&fromDate=2024-08-01&toDate=2025-08-05&FromPartNo=41543&ToPartNo=41545&StoreCode=QURNTINESTR&ProcessCode=PKG,2,8854,8717,8992,137.5,100.00%,0.00711,0.11,0,15510,25.596/hr
+Cntrl-Store Ledger Report,2,237854,236030,239679,1824.5,100.00%,0.00364,4.94,0.35,1392705,13.104/hr
+TOTAL,38,25133,5,239679,71234.77,21.05%,0.06887,26.62,1.36,395860.4,247.932/hr

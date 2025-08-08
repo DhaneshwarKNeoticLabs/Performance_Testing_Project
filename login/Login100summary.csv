@@ -1,0 +1,7 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Home/UserLogin,100,11,6,44,6.67,0.000%,10.09693,6.08,3.84,617.0
+Home/GetPlant,200,6,3,77,6.84,0.000%,20.20202,12.74,12.98,646.0
+Quality/GetDueData,100,60,51,106,9.44,0.000%,10.05429,7.64,6.36,778.0
+Notification/Getnotitfication,100,37,27,111,14.54,0.000%,10.10305,182.27,6.50,18474.0
+LogIn,100,122,94,249,28.85,0.000%,9.99600,206.57,29.40,21161.0
+TOTAL,600,40,3,249,43.87,0.000%,59.97601,413.14,58.80,7053.7

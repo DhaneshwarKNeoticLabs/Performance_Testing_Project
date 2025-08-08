@@ -1,0 +1,23 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+Home/UserLogin,5,41,27,57,89,89,17,89,0.000%,6.60502,3.98,2.51
+Home/Index,10,2108,233,4262,4262,4308,140,4308,50.000%,2.11416,5326.86,91.31
+Home/GetPlant,40,14,6,14,61,169,4,169,0.000%,.11543,0.07,0.07
+Quality/GetDueData,5,80,62,67,152,152,60,152,0.000%,31.25000,23.74,19.78
+Notification/Getnotitfication,40,57,37,120,131,155,28,155,0.000%,.11544,2.08,0.07
+Contrl-Login,5,4247,4258,4443,4633,4633,3822,4633,0.000%,1.04976,5077.05,92.48
+Contrl-Purchase Register Report,5,303,320,326,337,337,238,337,100.000%,12.78772,3080.38,15.77
+Home/GetQuickMenu,5,36,34,38,63,63,11,63,0.000%,67.56757,23.56,44.21
+Purchase/PurchaseRegisterReport,35,324,312,414,438,595,217,595,0.000%,.11437,31.31,9.84
+Finance/getallMngUnit,35,6,5,6,11,43,3,43,0.000%,.11449,0.09,0.06
+Finance/GetAllProject,35,4,5,6,6,8,3,8,0.000%,.11449,0.07,0.06
+Finance/GetAllCustomersegment,35,7,5,6,8,74,3,74,0.000%,.11450,0.19,0.06
+Purchase/GetPlant,35,4,5,6,7,7,3,7,0.000%,.11450,0.07,0.06
+Purchase/PrintPurchaseRegisterReport?Plant=&FromDate=01/04/2024&ToDate=07/08/2025&PlantName=ALL&Project=SSPLC001&CostCenter=undefined&ProductGroup=undefined&CustomerSegment=APAC&MgmUnit=M05&Type=Summary,5,1859,1843,1872,2392,2392,1534,2392,0.000%,.05844,33.66,0.80
+Purchase/PrintPurchaseRegisterReport?Plant=&FromDate=01/06/2024&ToDate=07/08/2025&PlantName=ALL&Project=SSPLC001&CostCenter=undefined&ProductGroup=undefined&CustomerSegment=APAC&MgmUnit=M05&Type=Summary,5,2032,1803,1888,2961,2961,1753,2961,0.000%,.04790,19.61,0.67
+Purchase/PrintPurchaseRegisterReport?Plant=&FromDate=01/01/2023&ToDate=07/08/2025&PlantName=ALL&Project=SSPLC001&CostCenter=undefined&ProductGroup=undefined&CustomerSegment=APAC&MgmUnit=M05&Type=Summary,5,2114,2331,2351,2366,2366,1758,2366,0.000%,.05112,20.93,0.71
+Contrl-Purchase Register Report2,5,8043,7885,8335,8804,8804,7389,8804,0.000%,.02041,58.33,9.99
+Purchase/PrintPurchaseRegisterReport?Plant=&FromDate=01/01/2023&ToDate=07/08/2025&PlantName=ALL&Project=&CostCenter=undefined&ProductGroup=undefined&CustomerSegment=&MgmUnit=&Type=Summary,5,10632,10620,10685,11762,11762,9661,11762,100.000%,.05030,20.59,0.70
+Purchase/PrintPurchaseRegisterReport?Plant=&FromDate=03/07/2023&ToDate=07/08/2025&PlantName=ALL&Project=&CustomerSegment=&MgmUnit=&Type=Details,5,11245,11131,11331,12068,12068,10569,12068,100.000%,.05077,20.78,0.71
+Reserved.ReportViewerWebControl.axd?Culture=16393&CultureOverrides=True&UICulture=1033&UICultureOverrides=True&ReportStack=1&ControlID=550d08eeca6e41748a1351791f004030&Mode=true&OpType=Export&FileName=rptPrintPurchaseDetailsRegisterReport&ContentDisposition=OnlyHtmlInline&Format=EXCELOPENXML,5,20,7,9,74,74,5,74,100.000%,.04236,0.15,0.04
+Contrl-Purchase Register Report3,5,22691,22565,22832,23919,23919,21639,23919,100.000%,.02557,36.18,5.32
+TOTAL,330,1069,7,2351,7885,22504,3,23919,9.091%,.93989,266.28,22.40

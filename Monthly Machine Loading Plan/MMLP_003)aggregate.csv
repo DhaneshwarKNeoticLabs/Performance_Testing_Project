@@ -1,0 +1,18 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+Home/UserLogin,5,26,20,44,47,47,10,47,0.000%,.01017,0.01,0.01
+Home/Index,10,447,137,585,585,2202,124,2202,60.000%,.02025,14.58,0.96
+Ctrlr-Log In,5,791,429,629,2212,2212,265,2212,20.000%,.01003,12.21,0.95
+Home/GetPlant,5,47,7,89,132,132,5,132,0.000%,.01018,0.01,0.01
+Quality/GetDueData,5,261,225,392,435,435,52,435,0.000%,.01017,0.01,0.01
+Notification/Getnotitfication,5,233,30,535,546,546,28,546,0.000%,.01018,0.18,0.01
+Home/GetQuickMenu,5,32,15,59,64,64,8,64,0.000%,.01019,0.01,0.01
+Production/ListMachineLoadingPlan,5,5477,5556,5608,5714,5714,5227,5714,100.000%,.00905,3.80,0.79
+Master/GetPageAccessDetails,5,13,14,14,16,16,12,16,0.000%,.00914,0.00,0.01
+Production/GetWorkordersAndPlan,5,5148,5136,5161,5314,5314,5034,5314,100.000%,.00905,0.02,0.01
+Production/GetMachineByProcess,5,8,9,9,10,10,7,10,0.000%,.00914,0.01,0.01
+Production/ManageMachineLoadingPlan,5,17,17,18,20,20,17,20,0.000%,.00914,0.00,0.01
+Production/PrintPressWiseLoadReport?Month=Aug&Year=2025&ProcessCode=FRM&PlantId=2,5,4565,4949,5173,6438,6438,2352,6438,40.000%,.00113,0.53,0.02
+Ctrlr-Monthly Machine Loading Plan,5,15935,17000,17023,17204,17204,13325,17204,100.000%,.00111,1.26,0.12
+Report Viewer Call,5,1105,1441,1461,1477,1477,224,1477,20.000%,.00113,0.37,0.03
+Transaction Controller-Print the Report,5,1105,1441,1461,1477,1477,224,1477,20.000%,.00113,0.37,0.03
+TOTAL,85,2097,225,5314,13325,17023,5,17204,30.588%,.01886,5.95,0.52

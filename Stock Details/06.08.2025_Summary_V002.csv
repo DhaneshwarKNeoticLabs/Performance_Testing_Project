@@ -1,0 +1,20 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput(/sec),Received KB/sec,Sent KB/sec,Avg. Bytes,"Throughput
+ (/Min)"
+Home/UserLogin,20,45,7,236,51.66,0.00%,0.20404,0.11,0.1,573,12.2424/min
+Home/Index,40,1881,124,7280,2829.52,75.00%,0.39921,551.77,18.3,1415325.6,23.9526/min
+Home/GetPlant,60,36,4,587,91.15,0.00%,0.38675,0.24,0.25,646,23.205/min
+Quality/GetDueData,20,129,48,655,133.7,0.00%,0.21756,0.17,0.14,778,13.0536/min
+Notification/Getnotitfication,100,112,28,1262,160.52,0.00%,0.62403,11.26,0.4,18474,37.4418/min
+Cntrl- Login,20,3912,453,7539,3104.87,50.00%,0.19896,509.75,18.73,2623575.1,11.9376/min
+Home/GetQuickMenu,20,18,5,62,19.02,0.00%,0.21766,0.09,0.14,419,13.0596/min
+STORE/ListStockDetails,20,400,273,1641,288.37,0.00%,0.16743,51.21,14.65,313225,10.0458/min
+Sales/GetPlant,20,15,4,148,31.73,0.00%,0.1678,0.11,0.11,646,10.068/min
+Store/GetStoresForStock,20,408,211,1301,258.78,0.00%,0.16756,6.86,0.09,41918,10.0536/min
+Cntrl- Navigation to Stock Details,20,1308,761,3877,728.31,100.00%,0.12822,77.88,11.78,621995,7.6932/min
+Store/GetStockDetailsOnStore,40,1958,261,6783,1884.2,15.00%,0.32579,786.41,0.24,2471794,19.5474/min
+Cntrl- Stock Details with all Input Details,20,527,291,1603,313.44,0.00%,0.16638,3.12,0.23,19202,9.9828/min
+Store/GetItemSubTypes,20,17,7,169,34.91,0.00%,0.16739,1.49,0.11,9133,10.0434/min
+Cntrl- Stock Deatails With Minimum Input Deatails,20,3639,2226,6972,1552.7,30.00%,0.16321,792.23,0.33,4970467.1,9.7926/min
+Store/GetItemStockDetail,20,864,574,1778,357.17,0.00%,0.16675,0.38,0.13,2303,10.005/min
+Cntrl- Search from List And view Details,20,864,574,1778,357.17,0.00%,0.16616,0.37,0.13,2303,9.9696/min
+TOTAL,500,820,4,7539,1634.16,14.40%,2.94244,1893.63,44.77,659003.4,176.5464/min

@@ -1,0 +1,17 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+Home/UserLogin,2,9,9,10,10,10,9,10,0.000%,.00717,0.00,0.00
+Home/Index,4,523,140,1540,1540,1540,135,1540,50.000%,.01431,18.13,0.66
+Cntrl-Login,2,918,286,1550,1550,1550,286,1550,0.000%,.00716,16.56,0.66
+Home/GetPlant,2,6,5,7,7,7,5,7,0.000%,.00720,0.00,0.00
+Quality/GetDueData,2,50,48,53,53,53,48,53,0.000%,.00720,0.01,0.00
+Notification/Getnotitfication,8,33,32,38,50,50,27,50,0.000%,.01454,0.26,0.01
+Home/GetQuickMenu,2,14,7,22,22,22,7,22,0.000%,.00720,0.00,0.00
+Production/StoreLedgerReport,2,263,234,292,292,292,234,292,0.000%,.00743,2.92,0.64
+Purchase/GetPlant?UserName=sujit,2,5,5,6,6,6,5,6,0.000%,.00743,0.00,0.00
+Master/GetListItemTypes,2,5,5,5,5,5,5,5,0.000%,.00743,0.01,0.00
+Store/GetStoresForStock,2,213,193,234,234,234,193,234,0.000%,.00743,0.30,0.00
+Production/GetPartNosFromStocks,2,677,572,782,782,782,572,782,0.000%,.00742,0.00,0.00
+Production/PrintStoreLedgerReport?PlantId=2&fromDate=2024-08-01&toDate=2025-08-05&FromPartNo=41543&ToPartNo=41545&StoreCode=&ProcessCode=PKG,2,227493,225650,229336,229336,229336,225650,229336,100.000%,.00402,2.46,0.00
+Production/PrintStoreLedgerReport?PlantId=2&fromDate=2024-08-01&toDate=2025-08-05&FromPartNo=41543&ToPartNo=41545&StoreCode=QURNTINESTR&ProcessCode=PKG,2,8854,8717,8992,8992,8992,8717,8992,100.000%,.00711,0.11,0.00
+Cntrl-Store Ledger Report,2,237854,236030,239679,239679,239679,236030,239679,100.000%,.00364,4.94,0.35
+TOTAL,38,25133,50,8992,229336,239679,5,239679,21.053%,.06887,26.62,1.36

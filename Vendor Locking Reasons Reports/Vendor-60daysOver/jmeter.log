@@ -1,0 +1,1989 @@
+2025-07-24 15:02:50,670 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-07-24 15:02:50,706 INFO o.a.j.JMeter: Loading user properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\user.properties
+2025-07-24 15:02:50,708 INFO o.a.j.JMeter: Loading system properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\system.properties
+2025-07-24 15:02:50,722 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-07-24 15:02:50,722 INFO o.a.j.JMeter: Version 5.6.3
+2025-07-24 15:02:50,722 INFO o.a.j.JMeter: java.version=16.0.2
+2025-07-24 15:02:50,722 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-07-24 15:02:50,722 INFO o.a.j.JMeter: os.name=Windows 10
+2025-07-24 15:02:50,723 INFO o.a.j.JMeter: os.arch=amd64
+2025-07-24 15:02:50,723 INFO o.a.j.JMeter: os.version=10.0
+2025-07-24 15:02:50,723 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-07-24 15:02:50,723 INFO o.a.j.JMeter: java.awt.headless=true
+2025-07-24 15:02:50,723 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-07-24 15:02:50,723 INFO o.a.j.JMeter: Available Processors =4
+2025-07-24 15:02:50,739 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-07-24 15:02:50,740 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-07-24 15:02:50,740 INFO o.a.j.JMeter: JMeterHome=C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3
+2025-07-24 15:02:50,740 INFO o.a.j.JMeter: user.dir  =C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver
+2025-07-24 15:02:50,741 INFO o.a.j.JMeter: PWD       =C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver
+2025-07-24 15:02:50,742 INFO o.a.j.JMeter: IP: 192.168.2.80 Name: NOETICPC13 FullName: host.docker.internal
+2025-07-24 15:02:50,765 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver'
+2025-07-24 15:02:50,768 INFO o.a.j.s.FileServer: Default base='C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver'
+2025-07-24 15:02:50,771 INFO o.a.j.s.FileServer: Set new base='C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver'
+2025-07-24 15:02:51,002 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-07-24 15:02:51,034 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-07-24 15:02:51,037 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-07-24 15:02:51,042 INFO o.a.j.s.SaveService: Loading file: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Vendor-60daysOver.jmx
+2025-07-24 15:02:51,106 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-07-24 15:02:51,110 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2025-07-24 15:02:51,138 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-24 15:02:51,138 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-24 15:02:51,138 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-24 15:02:51,138 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-24 15:02:51,139 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-07-24 15:02:51,139 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-07-24 15:02:51,217 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-07-24 15:02:51,223 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-07-24 15:02:51,223 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: Result_Vendor-60daysOver.jtl
+2025-07-24 15:02:51,224 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-07-24 15:02:51,226 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-07-24 15:02:51,231 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-07-24 15:02:51,234 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-07-24 15:02:51,235 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-07-24 15:02:51,235 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-07-24 15:02:51,235 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-07-24 15:02:51,235 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-07-24 15:02:51,235 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-07-24 15:02:51,235 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-07-24 15:02:51,236 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-07-24 15:02:51,241 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,242 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,242 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,242 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,242 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,243 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,243 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,243 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,243 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,243 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-24 15:02:51,244 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-07-24 15:02:51,245 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-07-24 15:02:51,245 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-07-24 15:02:51,245 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-07-24 15:02:51,245 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-07-24 15:02:51,245 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-07-24 15:02:51,267 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-07-24 15:02:51,268 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-07-24 15:02:51,268 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-07-24 15:02:51,276 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-07-24 15:02:51,276 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-07-24 15:02:51,460 INFO o.a.j.JMeter: Running test (1753349571460)
+2025-07-24 15:02:51,488 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2025-07-24 15:02:51,488 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2025-07-24 15:02:51,488 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-07-24 15:02:51,488 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=10 delayedStart=false
+2025-07-24 15:02:51,527 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-07-24 15:02:51,527 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-07-24 15:02:51,527 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-07-24 15:02:51,527 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-07-24 15:02:51,530 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2025-07-24 15:02:51,606 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = NOETICPC13
+2025-07-24 15:02:51,615 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-07-24 15:02:51,663 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2025-07-24 15:02:51,757 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2025-07-24 15:02:51,849 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-07-24 15:02:51,849 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-07-24 15:02:51,853 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2025-07-24 15:02:51,941 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2025-07-24 15:02:51,974 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-24 15:02:51,974 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-24 15:02:52,081 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2025-07-24 15:02:52,162 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2025-07-24 15:02:52,180 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2025-07-24 15:02:52,237 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2025-07-24 15:02:52,248 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2025-07-24 15:02:52,338 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2025-07-24 15:02:52,465 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2025-07-24 15:02:52,646 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2025-07-24 15:02:52,689 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2025-07-24 15:02:52,809 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2025-07-24 15:02:52,919 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2025-07-24 15:02:52,999 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2025-07-24 15:02:53,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2025-07-24 15:02:53,168 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2025-07-24 15:02:53,261 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:4] starting at token '
+
+' until [10:1] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "@charset" "@charset"
+    at line 7, column 1.
+
+Was expecting one of:
+
+    ","
+    "{"
+    <S>
+)
+2025-07-24 15:02:53,413 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2025-07-24 15:02:53,457 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2025-07-24 15:02:53,510 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2025-07-24 15:02:53,623 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2025-07-24 15:02:53,732 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2025-07-24 15:02:53,787 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2025-07-24 15:02:53,888 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2025-07-24 15:02:54,056 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2025-07-24 15:02:54,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2025-07-24 15:02:54,172 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2025-07-24 15:02:54,235 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8676:70] starting at token '=' until [8676:81] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8676, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-24 15:02:54,237 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8684:70] starting at token '=' until [8684:81] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8684, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-24 15:02:54,238 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8692:70] starting at token '=' until [8692:81] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8692, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-24 15:02:54,238 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8700:70] starting at token '=' until [8700:91] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8700, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-24 15:02:54,239 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8708:70] starting at token '=' until [8708:91] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8708, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-24 15:02:54,272 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2025-07-24 15:02:54,382 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2025-07-24 15:02:54,439 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2025-07-24 15:02:54,487 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-07-24 15:02:54,532 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-07-24 15:02:54,533 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-07-24 15:02:54,563 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:7913] starting at token '{' until [1:8129] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 7914.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,564 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8155] starting at token '{' until [1:8371] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8156.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,565 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8405] starting at token '{' until [1:8509] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8406.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,565 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8535] starting at token '{' until [1:8639] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8536.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,566 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8671] starting at token '{' until [1:8693] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8672.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,566 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8717] starting at token '{' until [1:8739] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8718.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,567 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8769] starting at token '{' until [1:8791] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8770.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,567 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8813] starting at token '{' until [1:8835] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8814.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,567 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8870] starting at token '{' until [1:8894] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8871.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,568 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8921] starting at token '{' until [1:8945] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8922.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,568 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8978] starting at token '{' until [1:9002] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8979.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,569 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:9027] starting at token '{' until [1:9051] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 9028.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,570 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:9888] starting at token '{' until [1:10050] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 9889.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,572 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10079] starting at token '{' until [1:10241] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10080.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,572 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10279] starting at token '{' until [1:10409] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10280.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,573 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10439] starting at token '{' until [1:10569] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10440.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,574 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10606] starting at token '{' until [1:10857] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10607.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,575 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10886] starting at token '{' until [1:11137] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10887.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,576 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:11489] starting at token '{' until [1:11627] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 11490.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,578 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:11655] starting at token '{' until [1:11793] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 11656.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,579 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:11913] starting at token '{' until [1:12218] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 11914.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,581 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12242] starting at token '{' until [1:12547] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12243.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,581 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12655] starting at token '{' until [1:12705] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12656.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,581 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12729] starting at token '{' until [1:12779] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12730.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,582 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12930] starting at token '{' until [1:12988] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12931.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,582 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:13015] starting at token '{' until [1:13073] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 13016.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,582 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:13232] starting at token '{' until [1:13285] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 13233.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,583 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:13311] starting at token '{' until [1:13364] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 13312.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,585 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2025-07-24 15:02:54,609 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:1363] starting at token '{' until [5:1687] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 1364.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,610 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:1713] starting at token '{' until [5:2025] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 1714.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,611 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:2049] starting at token '{' until [5:2353] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 2050.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,612 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:2374] starting at token '{' until [5:2936] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 2375.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-24 15:02:54,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2025-07-24 15:02:54,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2025-07-24 15:02:54,863 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2025-07-24 15:02:54,899 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-07-24 15:02:54,908 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-07-24 15:02:54,908 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-07-24 15:02:54,983 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2025-07-24 15:02:55,109 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2025-07-24 15:02:55,148 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2025-07-24 15:02:55,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2025-07-24 15:02:55,339 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2025-07-24 15:02:55,446 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2025-07-24 15:02:55,552 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2025-07-24 15:02:55,649 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2025-07-24 15:02:55,754 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2025-07-24 15:02:55,917 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2025-07-24 15:02:55,975 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2025-07-24 15:02:56,068 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2025-07-24 15:02:56,143 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2025-07-24 15:02:56,248 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2025-07-24 15:02:56,334 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2025-07-24 15:02:56,432 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2025-07-24 15:02:56,530 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2025-07-24 15:02:56,639 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2025-07-24 15:02:56,733 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2025-07-24 15:02:56,823 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2025-07-24 15:02:56,919 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2025-07-24 15:02:57,022 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2025-07-24 15:02:57,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2025-07-24 15:02:57,206 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2025-07-24 15:02:57,304 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2025-07-24 15:02:57,405 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2025-07-24 15:02:57,502 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2025-07-24 15:02:57,600 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2025-07-24 15:02:57,712 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2025-07-24 15:02:57,798 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2025-07-24 15:02:57,896 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2025-07-24 15:02:58,019 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2025-07-24 15:02:58,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2025-07-24 15:02:58,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2025-07-24 15:02:58,346 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2025-07-24 15:02:58,431 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2025-07-24 15:02:58,528 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2025-07-24 15:02:58,636 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2025-07-24 15:02:58,729 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2025-07-24 15:02:58,848 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2025-07-24 15:02:58,936 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2025-07-24 15:02:59,027 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2025-07-24 15:02:59,126 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2025-07-24 15:02:59,225 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2025-07-24 15:02:59,323 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2025-07-24 15:02:59,443 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2025-07-24 15:02:59,526 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2025-07-24 15:02:59,625 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2025-07-24 15:02:59,750 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2025-07-24 15:02:59,835 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2025-07-24 15:02:59,932 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2025-07-24 15:03:00,040 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2025-07-24 15:03:00,128 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2025-07-24 15:03:00,137 INFO o.a.j.r.Summariser: summary +    362 in 00:00:09 =   41.8/s Avg:   325 Min:     5 Max:  8089 Err:     2 (0.55%) Active: 87 Started: 87 Finished: 0
+2025-07-24 15:03:00,225 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2025-07-24 15:03:00,325 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2025-07-24 15:03:00,428 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2025-07-24 15:03:00,527 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2025-07-24 15:03:00,621 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2025-07-24 15:03:00,721 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2025-07-24 15:03:00,820 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2025-07-24 15:03:00,920 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2025-07-24 15:03:01,028 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2025-07-24 15:03:01,111 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2025-07-24 15:03:01,214 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2025-07-24 15:03:01,313 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2025-07-24 15:03:01,414 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2025-07-24 15:03:12,697 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,053 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,053 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,303 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,415 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,429 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,470 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,520 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,527 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:13,960 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,019 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,021 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,186 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,191 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,309 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,452 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,513 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,794 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:14,823 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:15,104 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:15,652 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:15,688 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,105 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,228 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,340 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,361 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,485 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,599 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,646 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,916 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:16,923 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:17,317 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:17,468 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:17,773 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:17,906 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,074 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,224 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,234 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,330 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,465 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,781 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:18,918 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:19,155 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:19,960 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:20,307 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:20,312 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:20,312 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:20,384 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:21,365 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:21,365 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:21,563 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:21,840 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:22,218 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:22,436 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:22,519 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:22,932 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:23,357 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:23,685 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:24,195 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:24,368 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:25,840 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:25,919 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:26,109 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:26,202 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:26,505 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:26,510 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:26,703 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:27,022 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:27,217 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:27,336 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:27,435 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:27,668 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:27,930 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:28,902 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:29,129 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:29,212 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:29,323 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:29,667 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:29,747 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,012 INFO o.a.j.r.Summariser: summary +   1882 in 00:00:30 =   63.0/s Avg:  1458 Min:    27 Max: 25032 Err:   324 (17.22%) Active: 100 Started: 100 Finished: 0
+2025-07-24 15:03:30,014 INFO o.a.j.r.Summariser: summary =   2244 in 00:00:39 =   58.2/s Avg:  1275 Min:     5 Max: 25032 Err:   326 (14.53%)
+2025-07-24 15:03:30,227 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,395 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,520 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,589 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,799 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,801 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,806 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:30,865 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,204 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,334 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,368 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,755 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,919 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,968 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:31,973 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:32,140 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:32,936 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:32,948 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,174 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,177 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,179 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,195 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,269 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,698 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,772 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:33,813 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:34,101 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:34,153 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:35,236 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:35,556 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:35,595 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,143 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,278 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,556 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,673 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,685 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,739 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,798 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,827 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,827 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:36,875 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:37,233 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:37,880 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,030 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,197 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,361 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,371 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,412 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,503 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,555 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,646 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,673 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,674 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,795 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,856 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,889 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:38,940 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,034 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,199 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,211 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,297 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,297 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,298 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,561 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,590 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,605 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,650 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,862 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:39,918 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:40,378 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:40,723 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:42,238 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:42,245 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:42,246 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:42,246 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:42,247 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:43,053 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:43,742 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:43,742 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:43,773 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:43,773 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:43,773 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:44,669 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:44,742 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:44,790 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,377 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,380 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,380 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,382 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,748 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,748 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,754 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:47,797 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:48,794 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:48,822 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,194 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,202 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,203 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,210 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,225 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,482 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,534 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,647 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:49,977 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:50,002 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:51,809 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:52,774 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:53,474 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:53,754 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,102 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,111 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,111 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,241 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,332 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,404 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,406 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:54,657 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:55,225 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:56,204 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:56,710 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:56,727 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:56,966 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:57,030 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:57,171 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:57,176 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:57,505 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:57,991 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:57,999 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:58,148 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:58,355 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:58,543 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:58,628 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:58,868 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:59,556 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:03:59,825 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:00,002 INFO o.a.j.r.Summariser: summary +   2369 in 00:00:30 =   79.0/s Avg:  1414 Min:    62 Max: 43238 Err:   451 (19.04%) Active: 100 Started: 100 Finished: 0
+2025-07-24 15:04:00,003 INFO o.a.j.r.Summariser: summary =   4613 in 00:01:09 =   67.3/s Avg:  1346 Min:     5 Max: 43238 Err:   777 (16.84%)
+2025-07-24 15:04:00,213 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:00,529 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:00,608 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:01,125 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:01,357 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:01,410 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:01,661 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:01,730 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:01,947 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,078 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,256 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,264 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,448 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,614 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,667 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,704 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,712 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,807 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,834 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,941 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:02,983 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,020 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,160 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,242 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,379 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,724 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,903 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,931 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:03,982 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,016 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,033 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,088 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,104 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,146 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,240 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,272 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,451 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,503 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,504 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,610 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,635 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,637 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,639 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,640 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,901 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,929 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,929 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,935 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:04,985 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:05,102 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:05,623 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:05,693 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:05,694 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:05,772 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:05,791 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,243 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,251 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,259 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,434 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,586 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,710 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,933 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,949 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:06,949 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:07,322 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:07,765 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:07,765 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:07,819 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:08,015 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:08,022 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:08,122 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:08,713 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:08,771 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:08,892 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:09,106 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:09,459 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:09,955 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:15,379 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:15,381 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:15,487 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:15,488 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:15,687 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:16,035 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:16,454 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:16,537 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:16,542 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:16,701 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:16,910 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:17,085 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:17,118 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:17,241 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:17,250 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:17,359 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:17,607 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,375 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,388 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,397 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,538 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,710 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,712 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:18,763 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:19,733 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:19,751 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:20,302 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:20,308 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:20,859 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:20,968 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:21,940 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:22,497 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:22,897 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:24,133 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:24,944 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:25,211 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:25,932 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:26,048 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:26,243 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:26,426 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:26,929 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:26,971 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:27,824 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:27,893 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:27,954 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,279 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,850 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,868 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,891 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,905 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,937 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,937 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,957 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:28,988 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,066 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,072 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,322 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,751 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,811 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,882 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,899 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,919 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,933 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,939 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,940 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,940 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,942 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:29,942 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,021 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,037 INFO o.a.j.r.Summariser: summary +   2410 in 00:00:30 =   80.3/s Avg:  1259 Min:    26 Max: 21312 Err:   442 (18.34%) Active: 100 Started: 100 Finished: 0
+2025-07-24 15:04:30,037 INFO o.a.j.r.Summariser: summary =   7023 in 00:01:39 =   71.3/s Avg:  1316 Min:     5 Max: 43238 Err:  1219 (17.36%)
+2025-07-24 15:04:30,038 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,107 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,755 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,760 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,778 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,847 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,930 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,958 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:30,990 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,407 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,636 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,642 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,657 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,658 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,818 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:31,837 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,025 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,210 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,213 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,228 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,559 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,635 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:32,812 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,034 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,035 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,043 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,098 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,098 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,126 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,126 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,180 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,183 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,183 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,190 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,200 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,256 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,273 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,288 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,288 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,401 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,413 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,414 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,483 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,726 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,726 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,727 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,936 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,942 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,943 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:33,960 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:34,002 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:34,856 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:34,870 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:34,871 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:35,511 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:35,805 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:35,814 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:35,814 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:35,935 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:36,114 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:36,797 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:36,884 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:36,944 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:37,204 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:37,876 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:37,896 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:37,983 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:38,058 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:39,517 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:39,627 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:40,253 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:40,347 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:40,945 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:41,101 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:41,101 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:41,260 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:41,304 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:42,147 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:42,197 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:44,584 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:45,334 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:45,822 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:47,374 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:48,011 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:48,778 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:48,831 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:48,952 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:48,970 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:49,599 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,091 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,126 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,136 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,170 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,178 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,297 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,298 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:50,792 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:52,184 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:52,934 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:52,937 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,000 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,305 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,305 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,629 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,688 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,688 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,789 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,959 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:53,982 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,052 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,169 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,214 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,243 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,249 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,267 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,271 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,322 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,345 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,377 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,403 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,436 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,514 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,514 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,548 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,559 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,632 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,696 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,719 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,719 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,861 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,868 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,874 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,902 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,925 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,947 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:54,997 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,007 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,145 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,170 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,171 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,171 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,184 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,337 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,425 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,428 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,509 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,705 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,713 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,714 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,739 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,879 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:55,880 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:56,206 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:56,313 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:56,402 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:56,581 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:56,874 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:57,193 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:57,455 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:57,462 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:57,462 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:57,490 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:57,759 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:58,154 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:59,233 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:04:59,476 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:00,089 INFO o.a.j.r.Summariser: summary +   2421 in 00:00:30 =   80.5/s Avg:  1129 Min:    65 Max: 18651 Err:   458 (18.92%) Active: 100 Started: 100 Finished: 0
+2025-07-24 15:05:00,132 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:00,137 INFO o.a.j.r.Summariser: summary =   9444 in 00:02:09 =   73.4/s Avg:  1268 Min:     5 Max: 43238 Err:  1677 (17.76%)
+2025-07-24 15:05:00,385 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:00,580 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:00,944 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,039 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,039 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,039 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,141 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,210 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,718 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,719 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,722 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,839 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,867 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:01,981 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,013 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,013 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,074 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,265 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,371 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,606 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,606 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,647 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,882 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:02,893 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:03,248 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:03,431 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:03,668 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:03,691 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:05,516 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:05,873 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:09,018 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:09,760 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:09,760 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:10,989 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:11,519 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:11,959 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,052 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,053 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,353 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,574 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,605 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,681 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:12,966 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:13,154 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:13,555 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:13,572 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:14,382 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:14,924 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:14,931 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:14,998 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:15,277 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:15,437 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:15,471 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:15,562 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:15,880 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:15,932 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,034 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,119 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,374 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,461 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,477 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,480 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,527 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,543 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,544 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,641 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,674 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,695 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,834 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,835 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,881 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,914 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,926 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:16,964 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,004 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,004 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,020 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,088 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,148 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,253 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,253 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,382 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,443 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:17,995 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:18,036 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:18,154 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:18,444 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,572 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,593 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,593 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,618 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,622 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,825 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:19,885 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:20,164 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:20,290 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:20,473 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:20,684 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:20,698 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:20,857 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,153 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,252 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,282 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,289 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,484 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,579 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,889 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,954 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:21,999 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:22,178 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:22,512 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:22,636 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:22,637 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,147 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,357 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,491 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,555 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,741 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,741 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:23,866 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,136 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,222 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,440 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,568 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,569 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,570 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,585 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,601 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,611 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,611 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,611 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,865 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,926 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:24,926 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,113 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,114 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,353 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,373 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,375 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,390 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,390 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,446 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:25,518 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:26,193 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:26,610 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:26,873 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:26,873 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:26,873 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:26,911 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:27,880 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:29,577 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:30,004 INFO o.a.j.r.Summariser: summary +   2162 in 00:00:30 =   72.3/s Avg:  1275 Min:    73 Max: 17603 Err:   398 (18.41%) Active: 100 Started: 100 Finished: 0
+2025-07-24 15:05:30,006 INFO o.a.j.r.Summariser: summary =  11606 in 00:02:39 =   73.2/s Avg:  1270 Min:     5 Max: 43238 Err:  2075 (17.88%)
+2025-07-24 15:05:30,380 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:31,155 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:32,749 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:33,313 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:33,877 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:33,982 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:33,982 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:34,183 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:35,269 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:35,441 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:35,944 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,046 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,049 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,355 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,356 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,356 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,371 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,507 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,516 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,730 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,760 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,889 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:36,890 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:37,549 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:37,837 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:37,840 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:37,840 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:38,167 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:38,237 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:38,634 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,157 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,161 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,296 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,315 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,377 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,503 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,521 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,627 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,631 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,839 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,850 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,851 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:39,853 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,021 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,313 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,315 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,448 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,491 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,673 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,703 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:40,962 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:41,525 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:41,694 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:41,810 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:41,938 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,139 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,146 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,174 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,190 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,337 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,576 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,606 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:42,993 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:43,054 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:43,070 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:43,524 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:43,576 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:43,623 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,016 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,021 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,028 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,430 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,430 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,649 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:44,653 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,106 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,308 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,324 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,786 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,822 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,877 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,909 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:45,910 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,056 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,079 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,189 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,572 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,575 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,637 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,637 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,730 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:46,925 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:47,419 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:47,421 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:47,797 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:47,797 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:47,871 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:48,226 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:48,324 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:48,474 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:48,491 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:49,005 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:49,347 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:49,354 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:49,537 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:49,864 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:50,607 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:51,012 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:51,131 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:51,394 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:51,645 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:52,085 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:52,439 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:53,783 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:54,022 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:54,198 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:54,525 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:55,294 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:55,314 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:55,525 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:55,569 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:55,611 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:56,067 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-51
+2025-07-24 15:05:56,067 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2025-07-24 15:05:56,193 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:56,865 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:57,007 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:57,007 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:57,170 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:57,801 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:57,965 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:58,108 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:58,513 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:58,672 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:58,718 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:58,750 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:58,768 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-80
+2025-07-24 15:05:58,768 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2025-07-24 15:05:58,849 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,086 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,305 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,442 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,466 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,562 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,813 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:05:59,813 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:00,110 INFO o.a.j.r.Summariser: summary +   2559 in 00:00:30 =   85.3/s Avg:  1324 Min:    43 Max: 16745 Err:   467 (18.25%) Active: 98 Started: 100 Finished: 2
+2025-07-24 15:06:00,111 INFO o.a.j.r.Summariser: summary =  14165 in 00:03:09 =   75.1/s Avg:  1279 Min:     5 Max: 43238 Err:  2542 (17.95%)
+2025-07-24 15:06:00,174 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-60
+2025-07-24 15:06:00,174 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2025-07-24 15:06:00,223 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:01,238 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:01,777 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-62
+2025-07-24 15:06:01,777 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2025-07-24 15:06:02,181 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:02,667 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-87
+2025-07-24 15:06:02,667 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-87
+2025-07-24 15:06:02,706 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:02,791 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-57
+2025-07-24 15:06:02,791 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2025-07-24 15:06:02,926 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,077 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,184 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,687 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-86
+2025-07-24 15:06:03,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-86
+2025-07-24 15:06:03,701 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,719 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,733 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,757 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-61
+2025-07-24 15:06:03,758 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2025-07-24 15:06:03,768 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,815 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-96
+2025-07-24 15:06:03,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-96
+2025-07-24 15:06:03,833 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,848 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,856 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,927 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:03,929 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,011 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,297 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,378 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,469 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2025-07-24 15:06:04,469 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2025-07-24 15:06:04,525 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,569 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-49
+2025-07-24 15:06:04,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2025-07-24 15:06:04,778 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,778 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,779 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:04,817 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-50
+2025-07-24 15:06:04,817 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2025-07-24 15:06:05,019 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-73
+2025-07-24 15:06:05,019 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2025-07-24 15:06:05,145 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:05,367 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:05,806 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:05,806 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-56
+2025-07-24 15:06:05,807 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2025-07-24 15:06:05,963 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2025-07-24 15:06:05,963 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2025-07-24 15:06:06,097 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:06,140 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2025-07-24 15:06:06,140 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2025-07-24 15:06:06,144 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-68
+2025-07-24 15:06:06,144 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2025-07-24 15:06:06,309 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-45
+2025-07-24 15:06:06,310 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2025-07-24 15:06:06,342 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-77
+2025-07-24 15:06:06,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2025-07-24 15:06:06,355 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:06,355 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:06,439 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:06,447 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:06,736 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2025-07-24 15:06:06,737 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2025-07-24 15:06:06,744 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2025-07-24 15:06:06,744 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2025-07-24 15:06:06,897 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2025-07-24 15:06:06,897 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2025-07-24 15:06:06,900 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:06,906 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-42
+2025-07-24 15:06:06,906 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2025-07-24 15:06:06,906 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2025-07-24 15:06:06,906 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2025-07-24 15:06:06,909 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2025-07-24 15:06:06,909 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2025-07-24 15:06:06,971 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-47
+2025-07-24 15:06:06,971 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2025-07-24 15:06:06,977 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,065 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2025-07-24 15:06:07,065 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2025-07-24 15:06:07,129 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-54
+2025-07-24 15:06:07,129 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2025-07-24 15:06:07,241 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-88
+2025-07-24 15:06:07,241 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2025-07-24 15:06:07,290 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,290 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,290 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,311 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,394 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,395 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,437 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-53
+2025-07-24 15:06:07,437 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2025-07-24 15:06:07,498 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,501 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:07,534 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-69
+2025-07-24 15:06:07,534 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2025-07-24 15:06:07,768 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,047 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2025-07-24 15:06:08,047 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2025-07-24 15:06:08,094 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,278 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,278 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,478 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,485 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,485 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,502 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,510 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-83
+2025-07-24 15:06:08,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2025-07-24 15:06:08,608 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-71
+2025-07-24 15:06:08,608 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2025-07-24 15:06:08,691 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2025-07-24 15:06:08,691 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2025-07-24 15:06:08,749 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,809 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:08,918 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:09,067 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:09,335 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:09,335 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:09,335 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:09,354 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:09,525 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:10,359 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:10,661 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:10,665 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:11,124 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2025-07-24 15:06:11,124 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2025-07-24 15:06:11,435 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:11,564 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:12,218 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:12,236 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-52
+2025-07-24 15:06:12,236 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2025-07-24 15:06:13,004 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:13,137 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-82
+2025-07-24 15:06:13,137 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-82
+2025-07-24 15:06:13,181 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2025-07-24 15:06:13,181 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2025-07-24 15:06:13,734 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:13,864 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-58
+2025-07-24 15:06:13,864 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2025-07-24 15:06:14,001 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2025-07-24 15:06:14,001 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2025-07-24 15:06:14,038 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2025-07-24 15:06:14,038 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2025-07-24 15:06:14,139 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-94
+2025-07-24 15:06:14,139 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-94
+2025-07-24 15:06:14,658 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:14,775 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-55
+2025-07-24 15:06:14,775 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2025-07-24 15:06:15,278 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-72
+2025-07-24 15:06:15,278 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2025-07-24 15:06:15,446 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:15,546 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:15,568 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2025-07-24 15:06:15,568 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2025-07-24 15:06:15,692 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2025-07-24 15:06:15,692 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2025-07-24 15:06:15,700 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2025-07-24 15:06:15,700 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2025-07-24 15:06:15,733 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2025-07-24 15:06:15,734 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2025-07-24 15:06:15,746 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-91
+2025-07-24 15:06:15,746 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2025-07-24 15:06:15,795 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-64
+2025-07-24 15:06:15,795 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2025-07-24 15:06:16,051 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-65
+2025-07-24 15:06:16,051 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2025-07-24 15:06:16,057 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2025-07-24 15:06:16,057 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2025-07-24 15:06:16,076 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:16,148 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:16,413 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-75
+2025-07-24 15:06:16,413 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2025-07-24 15:06:16,467 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-46
+2025-07-24 15:06:16,467 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2025-07-24 15:06:16,488 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-93
+2025-07-24 15:06:16,489 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2025-07-24 15:06:16,721 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-100
+2025-07-24 15:06:16,721 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2025-07-24 15:06:16,743 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:16,914 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2025-07-24 15:06:16,915 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2025-07-24 15:06:17,069 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-41
+2025-07-24 15:06:17,069 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2025-07-24 15:06:17,256 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-78
+2025-07-24 15:06:17,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2025-07-24 15:06:17,454 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:17,598 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:17,868 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-44
+2025-07-24 15:06:17,868 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2025-07-24 15:06:17,905 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-81
+2025-07-24 15:06:17,906 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-81
+2025-07-24 15:06:17,912 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:18,041 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-76
+2025-07-24 15:06:18,041 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2025-07-24 15:06:18,045 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-85
+2025-07-24 15:06:18,045 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2025-07-24 15:06:18,179 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2025-07-24 15:06:18,179 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2025-07-24 15:06:18,250 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:18,259 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2025-07-24 15:06:18,260 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2025-07-24 15:06:18,471 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-59
+2025-07-24 15:06:18,471 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2025-07-24 15:06:18,528 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2025-07-24 15:06:18,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2025-07-24 15:06:18,555 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-95
+2025-07-24 15:06:18,555 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2025-07-24 15:06:18,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2025-07-24 15:06:18,576 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2025-07-24 15:06:18,586 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-92
+2025-07-24 15:06:18,586 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2025-07-24 15:06:18,587 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2025-07-24 15:06:18,587 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2025-07-24 15:06:18,635 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:18,669 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2025-07-24 15:06:18,669 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2025-07-24 15:06:18,740 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-90
+2025-07-24 15:06:18,740 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-90
+2025-07-24 15:06:18,834 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-48
+2025-07-24 15:06:18,834 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2025-07-24 15:06:18,878 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2025-07-24 15:06:18,879 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2025-07-24 15:06:18,897 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2025-07-24 15:06:18,897 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2025-07-24 15:06:18,912 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-84
+2025-07-24 15:06:18,912 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2025-07-24 15:06:19,055 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2025-07-24 15:06:19,055 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2025-07-24 15:06:19,055 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2025-07-24 15:06:19,055 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2025-07-24 15:06:19,090 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-89
+2025-07-24 15:06:19,091 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2025-07-24 15:06:19,112 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-43
+2025-07-24 15:06:19,112 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2025-07-24 15:06:19,135 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-66
+2025-07-24 15:06:19,135 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2025-07-24 15:06:19,154 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:19,372 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-79
+2025-07-24 15:06:19,372 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2025-07-24 15:06:19,422 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2025-07-24 15:06:19,422 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2025-07-24 15:06:19,449 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-63
+2025-07-24 15:06:19,449 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2025-07-24 15:06:19,451 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2025-07-24 15:06:19,451 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2025-07-24 15:06:19,473 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-97
+2025-07-24 15:06:19,473 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2025-07-24 15:06:19,526 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2025-07-24 15:06:19,526 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2025-07-24 15:06:19,529 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2025-07-24 15:06:19,529 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2025-07-24 15:06:19,573 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2025-07-24 15:06:19,573 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:19,574 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2025-07-24 15:06:19,685 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2025-07-24 15:06:19,685 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2025-07-24 15:06:19,820 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-67
+2025-07-24 15:06:19,820 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2025-07-24 15:06:19,821 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2025-07-24 15:06:19,821 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2025-07-24 15:06:19,831 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-70
+2025-07-24 15:06:19,831 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2025-07-24 15:06:19,953 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP Cookie Manager superseded by HTTP Cookie Manager
+2025-07-24 15:06:20,088 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-99
+2025-07-24 15:06:20,088 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2025-07-24 15:06:20,389 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2025-07-24 15:06:20,390 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2025-07-24 15:06:20,484 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-74
+2025-07-24 15:06:20,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2025-07-24 15:06:20,765 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-98
+2025-07-24 15:06:20,765 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2025-07-24 15:06:20,925 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2025-07-24 15:06:20,926 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2025-07-24 15:06:20,928 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-07-24 15:06:20,935 INFO o.a.j.r.Summariser: summary +   1835 in 00:00:21 =   87.7/s Avg:   823 Min:     1 Max: 14478 Err:   458 (24.96%) Active: 0 Started: 100 Finished: 100
+2025-07-24 15:06:20,937 INFO o.a.j.r.Summariser: summary =  16000 in 00:03:29 =   76.4/s Avg:  1227 Min:     1 Max: 43238 Err:  3000 (18.75%)
+2025-07-24 15:06:20,949 INFO o.a.j.JMeter: Generating Dashboard
+2025-07-24 15:06:20,949 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-07-24 15:06:21,046 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-07-24 15:06:25,194 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-07-24 15:06:25,194 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-07-24 15:06:25,326 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-07-24 15:06:25,327 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-07-24 15:06:25,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-07-24 15:06:25,380 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-07-24 15:06:25,381 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-07-24 15:06:25,381 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-07-24 15:06:26,778 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-07-24 15:06:26,782 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-07-24 15:06:26,786 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-07-24 15:06:26,786 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-07-24 15:06:27,958 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-07-24 15:06:27,961 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 532000 samples
+2025-07-24 15:06:27,961 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-07-24 15:06:27,961 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-07-24 15:06:27,961 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-07-24 15:06:27,971 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-07-24 15:06:27,977 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-07-24 15:06:27,980 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-07-24 15:06:28,042 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-07-24 15:06:28,047 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-07-24 15:06:28,047 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-07-24 15:06:28,048 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-07-24 15:06:28,048 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 1155000 samples
+2025-07-24 15:06:28,048 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 231000 samples
+2025-07-24 15:06:28,048 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 77000 samples
+2025-07-24 15:06:28,049 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 77000 samples produced in 6s 934 ms on channel 0
+2025-07-24 15:06:28,050 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-07-24 15:06:28,447 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-07-24 15:06:28,447 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-07-24 15:06:28,448 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-07-24 15:06:28,449 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-07-24 15:06:28,450 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver\statistics.json
+2025-07-24 15:06:28,534 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-07-24 15:06:28,538 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver
+2025-07-24 15:06:29,317 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver, creating folder structure
+2025-07-24 15:06:29,324 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver', got message: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver, found non empty folder with following content [C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\Vendor Locking Reasons Reports\Vendor-60daysOver\Report_folder_Vendor-60daysOver\statistics.json], will be ignored
+2025-07-24 15:06:33,680 INFO o.a.j.JMeter: Dashboard generated

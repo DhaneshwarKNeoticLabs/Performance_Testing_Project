@@ -1,0 +1,806 @@
+2025-07-14 16:02:36,193 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-07-14 16:02:36,261 INFO o.a.j.JMeter: Loading user properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\user.properties
+2025-07-14 16:02:36,264 INFO o.a.j.JMeter: Loading system properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\system.properties
+2025-07-14 16:02:36,277 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-07-14 16:02:36,278 INFO o.a.j.JMeter: Version 5.6.3
+2025-07-14 16:02:36,278 INFO o.a.j.JMeter: java.version=16.0.2
+2025-07-14 16:02:36,278 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-07-14 16:02:36,278 INFO o.a.j.JMeter: os.name=Windows 10
+2025-07-14 16:02:36,278 INFO o.a.j.JMeter: os.arch=amd64
+2025-07-14 16:02:36,279 INFO o.a.j.JMeter: os.version=10.0
+2025-07-14 16:02:36,279 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-07-14 16:02:36,279 INFO o.a.j.JMeter: java.awt.headless=true
+2025-07-14 16:02:36,279 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-07-14 16:02:36,279 INFO o.a.j.JMeter: Available Processors =4
+2025-07-14 16:02:36,296 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-07-14 16:02:36,296 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-07-14 16:02:36,296 INFO o.a.j.JMeter: JMeterHome=C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3
+2025-07-14 16:02:36,296 INFO o.a.j.JMeter: user.dir  =C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS
+2025-07-14 16:02:36,297 INFO o.a.j.JMeter: PWD       =C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS
+2025-07-14 16:02:36,299 INFO o.a.j.JMeter: IP: 192.168.2.80 Name: NOETICPC13 FullName: host.docker.internal
+2025-07-14 16:02:36,326 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS'
+2025-07-14 16:02:36,330 INFO o.a.j.s.FileServer: Default base='C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS'
+2025-07-14 16:02:36,333 INFO o.a.j.s.FileServer: Set new base='C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS'
+2025-07-14 16:02:36,592 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-07-14 16:02:36,627 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-07-14 16:02:36,632 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-07-14 16:02:36,637 INFO o.a.j.s.SaveService: Loading file: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\GIN-FINISH-GOODS.jmx
+2025-07-14 16:02:36,714 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-07-14 16:02:36,721 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2025-07-14 16:02:36,760 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-14 16:02:36,760 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-14 16:02:36,760 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-14 16:02:36,760 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-14 16:02:36,760 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-07-14 16:02:36,760 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-07-14 16:02:36,891 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-07-14 16:02:36,899 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-07-14 16:02:36,899 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: Result_GIN_FINISH_GOODS.jtl
+2025-07-14 16:02:36,899 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-07-14 16:02:36,903 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-07-14 16:02:36,911 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-07-14 16:02:36,916 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-07-14 16:02:36,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-07-14 16:02:36,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-07-14 16:02:36,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-07-14 16:02:36,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-07-14 16:02:36,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-07-14 16:02:36,917 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-07-14 16:02:36,918 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-07-14 16:02:36,925 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,925 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,925 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,925 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,925 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,926 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,926 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,926 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,926 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,927 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-07-14 16:02:36,929 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-07-14 16:02:36,929 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-07-14 16:02:36,929 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-07-14 16:02:36,930 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-07-14 16:02:36,930 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-07-14 16:02:36,930 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-07-14 16:02:36,967 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-07-14 16:02:36,969 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-07-14 16:02:36,969 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-07-14 16:02:36,977 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-07-14 16:02:36,977 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-07-14 16:02:37,229 INFO o.a.j.JMeter: Running test (1752489157229)
+2025-07-14 16:02:37,258 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2025-07-14 16:02:37,258 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2025-07-14 16:02:37,258 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-07-14 16:02:37,259 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-07-14 16:02:37,293 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-07-14 16:02:37,294 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-07-14 16:02:37,294 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-07-14 16:02:37,294 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-07-14 16:02:37,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2025-07-14 16:02:37,357 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = NOETICPC13
+2025-07-14 16:02:37,367 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-07-14 16:02:37,369 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-07-14 16:02:37,369 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-07-14 16:02:37,411 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2025-07-14 16:02:37,488 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2025-07-14 16:02:37,535 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-07-14 16:02:37,586 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2025-07-14 16:02:37,693 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2025-07-14 16:02:37,716 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2025-07-14 16:02:37,793 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2025-07-14 16:02:37,855 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2025-07-14 16:02:37,883 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2025-07-14 16:02:37,997 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2025-07-14 16:02:38,110 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2025-07-14 16:02:38,139 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:4] starting at token '
+
+' until [10:1] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "@charset" "@charset"
+    at line 7, column 1.
+
+Was expecting one of:
+
+    ","
+    "{"
+    <S>
+)
+2025-07-14 16:02:38,321 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2025-07-14 16:02:39,564 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8676:70] starting at token '=' until [8676:81] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8676, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-14 16:02:39,565 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8684:70] starting at token '=' until [8684:81] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8684, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-14 16:02:39,566 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8692:70] starting at token '=' until [8692:81] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8692, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-14 16:02:39,567 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8700:70] starting at token '=' until [8700:91] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8700, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-14 16:02:39,568 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [8708:70] starting at token '=' until [8708:91] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "$" "$"
+    at line 8708, column 71.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-07-14 16:02:40,188 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-07-14 16:02:40,198 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:7913] starting at token '{' until [1:8129] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 7914.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,199 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8155] starting at token '{' until [1:8371] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8156.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,200 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8405] starting at token '{' until [1:8509] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8406.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,200 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8535] starting at token '{' until [1:8639] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8536.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,200 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8671] starting at token '{' until [1:8693] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8672.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,201 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8717] starting at token '{' until [1:8739] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8718.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,201 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8769] starting at token '{' until [1:8791] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8770.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,201 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8813] starting at token '{' until [1:8835] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8814.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,202 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8870] starting at token '{' until [1:8894] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8871.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,202 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8921] starting at token '{' until [1:8945] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8922.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,202 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:8978] starting at token '{' until [1:9002] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 8979.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,203 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:9027] starting at token '{' until [1:9051] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 9028.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,204 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:9888] starting at token '{' until [1:10050] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 9889.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,205 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10079] starting at token '{' until [1:10241] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10080.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,206 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10279] starting at token '{' until [1:10409] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10280.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,207 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10439] starting at token '{' until [1:10569] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10440.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,208 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10606] starting at token '{' until [1:10857] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10607.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,209 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-07-14 16:02:40,210 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-07-14 16:02:40,210 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:10886] starting at token '{' until [1:11137] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 10887.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,211 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:11489] starting at token '{' until [1:11627] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 11490.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,212 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:11655] starting at token '{' until [1:11793] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 11656.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,213 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:11913] starting at token '{' until [1:12218] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 11914.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,214 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12242] starting at token '{' until [1:12547] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12243.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,215 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12655] starting at token '{' until [1:12705] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12656.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,216 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12729] starting at token '{' until [1:12779] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12730.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,217 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:12930] starting at token '{' until [1:12988] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 12931.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,218 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:13015] starting at token '{' until [1:13073] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 13016.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,218 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:13232] starting at token '{' until [1:13285] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 13233.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,218 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [1:13311] starting at token '{' until [1:13364] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 1, column 13312.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,241 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:1363] starting at token '{' until [5:1687] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 1364.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,242 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:1713] starting at token '{' until [5:2025] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 1714.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,243 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:2049] starting at token '{' until [5:2353] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 2050.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,244 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:2374] starting at token '{' until [5:2936] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: "0" <NUMBER>
+    at line 5, column 2375.
+
+Was expecting one of:
+
+    "from"
+    "to"
+    "}"
+    <PERCENTAGE>
+    <S>
+)
+2025-07-14 16:02:40,475 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-07-14 16:02:40,483 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-07-14 16:02:40,483 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-07-14 16:03:15,721 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2025-07-14 16:03:15,721 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2025-07-14 16:03:15,721 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2025-07-14 16:03:15,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2025-07-14 16:03:15,725 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2025-07-14 16:03:15,725 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2025-07-14 16:03:32,891 INFO o.a.j.r.Summariser: summary +    273 in 00:00:56 =    4.9/s Avg:   536 Min:     2 Max:  7785 Err:    59 (21.61%) Active: 7 Started: 10 Finished: 3
+2025-07-14 16:03:35,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2025-07-14 16:03:35,805 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2025-07-14 16:03:35,807 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2025-07-14 16:03:35,807 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2025-07-14 16:03:43,798 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2025-07-14 16:03:43,798 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2025-07-14 16:03:53,314 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2025-07-14 16:03:53,314 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2025-07-14 16:03:55,728 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2025-07-14 16:03:55,728 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2025-07-14 16:03:58,042 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2025-07-14 16:03:58,043 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2025-07-14 16:04:08,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2025-07-14 16:04:08,577 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2025-07-14 16:04:08,581 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-07-14 16:04:08,583 INFO o.a.j.r.Summariser: summary +     37 in 00:00:36 =    1.0/s Avg:   289 Min:     2 Max:  6699 Err:     5 (13.51%) Active: 0 Started: 10 Finished: 10
+2025-07-14 16:04:08,584 INFO o.a.j.r.Summariser: summary =    310 in 00:01:31 =    3.4/s Avg:   507 Min:     2 Max:  7785 Err:    64 (20.65%)
+2025-07-14 16:04:08,585 INFO o.a.j.JMeter: Generating Dashboard
+2025-07-14 16:04:08,585 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-07-14 16:04:08,643 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-07-14 16:04:08,997 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-07-14 16:04:08,997 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-07-14 16:04:09,009 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-07-14 16:04:09,009 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-07-14 16:04:09,023 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-07-14 16:04:09,029 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-07-14 16:04:09,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-07-14 16:04:09,030 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-07-14 16:04:09,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-07-14 16:04:09,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-07-14 16:04:09,114 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-07-14 16:04:09,114 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-07-14 16:04:09,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-07-14 16:04:09,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 14770 samples
+2025-07-14 16:04:09,161 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-07-14 16:04:09,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-07-14 16:04:09,162 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-07-14 16:04:09,180 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-07-14 16:04:09,182 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-07-14 16:04:09,183 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-07-14 16:04:09,204 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-07-14 16:04:09,204 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-07-14 16:04:09,206 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-07-14 16:04:09,207 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-07-14 16:04:09,208 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 31800 samples
+2025-07-14 16:04:09,208 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 6360 samples
+2025-07-14 16:04:09,208 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 2120 samples
+2025-07-14 16:04:09,209 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 2120 samples produced in 526ms on channel 0
+2025-07-14 16:04:09,210 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-07-14 16:04:09,345 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-07-14 16:04:09,345 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-07-14 16:04:09,346 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-07-14 16:04:09,347 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-07-14 16:04:09,349 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS\statistics.json
+2025-07-14 16:04:09,422 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-07-14 16:04:09,426 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS
+2025-07-14 16:04:10,112 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS, creating folder structure
+2025-07-14 16:04:10,117 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS', got message: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS, found non empty folder with following content [C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN FINISH GOODS\Report_Folder_GIN_FINISH_GOODS\statistics.json], will be ignored
+2025-07-14 16:04:12,889 INFO o.a.j.JMeter: Dashboard generated

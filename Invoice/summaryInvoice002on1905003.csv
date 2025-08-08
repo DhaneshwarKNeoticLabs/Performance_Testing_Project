@@ -1,0 +1,7 @@
+APIS ,Time,Status code
+//192.168.2.5/ACCSSPLDRYRUN/Sales/InvoiceJWLotQtyIsValid,15sec,500
+//192.168.2.5/ACCSSPLDRYRUN/Sales/GetRunIRNVal,30sec ,500
+//192.168.2.5/ACCSSPLDRYRUN/Sales/InvoiceLotQtyIsValid,30sec ,500
+"//192.168.2.5/ACCSSPLDRYRUN/Sales/GetSORemainingQty
+",30sec ,500
+/192.168.2.5/ACCSSPLDRYRUN/Sales/GetInvoicetype,8 sec,NA

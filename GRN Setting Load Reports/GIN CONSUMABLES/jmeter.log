@@ -1,0 +1,31 @@
+2025-07-14 11:57:58,404 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-07-14 11:57:58,442 INFO o.a.j.JMeter: Loading user properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\user.properties
+2025-07-14 11:57:58,445 INFO o.a.j.JMeter: Loading system properties from: C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\system.properties
+2025-07-14 11:57:58,459 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-07-14 11:57:58,459 INFO o.a.j.JMeter: Version 5.6.3
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: java.version=16.0.2
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: os.name=Windows 10
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: os.arch=amd64
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: os.version=10.0
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: java.awt.headless=true
+2025-07-14 11:57:58,460 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-07-14 11:57:58,461 INFO o.a.j.JMeter: Available Processors =4
+2025-07-14 11:57:58,473 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-07-14 11:57:58,474 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-07-14 11:57:58,474 INFO o.a.j.JMeter: JMeterHome=C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3
+2025-07-14 11:57:58,474 INFO o.a.j.JMeter: user.dir  =C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN CONSUMABLES
+2025-07-14 11:57:58,475 INFO o.a.j.JMeter: PWD       =C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN CONSUMABLES
+2025-07-14 11:57:58,476 INFO o.a.j.JMeter: IP: 192.168.2.80 Name: NOETICPC13 FullName: host.docker.internal
+2025-07-14 11:57:58,495 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\Users\dhaneshwar.kamane\Downloads\apache-jmeter-5.6.3\bin\GRN Setting Load Reports\GIN CONSUMABLES\Report_Folder_GIN_CONSUMABLES' as folder is not empty
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:664) ~[jorphan.jar:5.6.3]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:620) ~[jorphan.jar:5.6.3]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:542) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:492) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
