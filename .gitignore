@@ -1,0 +1,8 @@
+*.log
+report_folder_*/
+**/report_folder_*/
+*.zip
+*.tmp
+*.bak
+node_modules/
+bower_components/
